@@ -1,3 +1,6 @@
+body {
+    font-family: 'Montserrat', sans-serif !important;
+}
 #services {
     background-image: url("img/world.jpg") ;
 }
@@ -181,15 +184,16 @@ img {
 #mainNav {
     border-color: #fff;
     background-color: #fff;
+    height: 95px;
 }
 #mainNav .navbar-nav > li.nav-item > a.nav-link, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
     color: #212529;
 }
 #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover, #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover {
-    color: #f05f40;
+    color: #fd8c40;
 }
 #mainNav a.nav-link:hover {
-	color: #f05f40!important;
+	color: #fd8c40!important;
 }
 #footer ul > li {
     display: inline-block;
@@ -199,8 +203,11 @@ img {
     color: #fff !important;
     font-size: 50px;
 }
-
-
+#contact {
+    padding: 60px 0 30px;
+    font-size: 14px;
+    line-height: 1.6;
+}
 .stylish-line p {
     margin-top: 0 auto;
     margin-bottom: 0;
@@ -208,7 +215,171 @@ img {
 .wpb_column.vc_column_container.vc_col-sm-12.vc_col-lg-6.vc_col-md-6.vc_col-xs-12.col-sm-6 {
     width: 100%;
 }
+#contact {
+    background-color: #222;
+    padding: 60px 0 30px;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #fff;
+}
+#contact a {
+    color: #fff;
+}
+#contact a:hover {
+    text-decoration: none;
+}
+#footer-copyright a {
+    color: #000;
+}
+.contact-ajax .ctajax-element .el-inner label {
+    float: left;
+    display: none;
+}
+.sppb-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+/*.contact-ajax.theme1 .ctajax-wrap .ctajax-element .el-ctajax-form input {
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 0;
+}
+.contact-ajax .ctajax-element .el-ctajax-form input {
+    width: 85%;
+}*/
+.contact-ajax .ctajax-element #dynamic_recaptcha_1, .contact-ajax .ctajax-element .el-inner input, .contact-ajax .ctajax-element .el-inner textarea {
+    border-style: solid;
+    border-width: 1px;
+    clear: both;
+    color: #AAA;
+    margin-bottom: 15px;
+    padding: 10px;
+    transition: border-color 0.3s ease 0s;
+    border-radius: 2px;
+}
+.contact-ajax .ctajax-element .el-inner input {
+    line-height: 15px;
+    height: 40px;
+}
+.contact-ajax.theme1 .post-text {
+    font-style: italic;
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    margin: 0 0 60px;
+}
+.contact-ajax.theme1 .pre-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+}
+#quote{
+    padding-top: 72px !important;
+    padding-bottom: 72px !important;
+    background: #fd8c40 url(../img/globus_image_small.jpg) !important;
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-size: auto auto;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+.contact-ajax.theme1 .ctajax-wrap .ctajax-element .el-ctajax-form input {
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 0;
+}
+.contact-ajax.theme1 .ctajax-wrap .ctajax-element .el-ctajax-form input[type="submit"] {
+    background: #fff;
+    padding: 0 5px;
+    font-weight: bold;
+    color: #121212;
+    max-width: 130px;
+    cursor: pointer;
+}
+.contact-ajax .ctajax-element .el-ctajax-form textarea {
+    min-height: 170px;
+    width: 100%;
+}
+.header-top {
+    background-color: rgba(33,33,33,1);
+    height: 56px;
+    line-height: 56px;
+}
+.et-el-icon.extra-small {
+    display: inline-block;
+    vertical-align: middle;
+}
+.slogan.et-clearfix {
+    display: inline-block;
+    vertical-align: middle;
+}
+.et-el-icon.extra-small {
 
+    font-size: 16px;
+    line-height: 16px;
+
+}
+.et-el-icon {
+    margin: 0 10px 2px 30px;
+}
+.top-button {
+    padding: 10px 16px;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 600;
+    outline: 0;
+    border: none;
+    position: relative;
+    display: block;
+    float: right;
+    margin-left: 24px;
+    min-width: 88px;
+    overflow: hidden;
+    z-index: 1;
+    text-align: center;
+    transition: all 300ms ease-out;
+    text-transform: uppercase;
+}
+.header-top .top-button {
+    background-color: #fd8c40;
+    color: #ffffff;
+}
+.header-top .top-button{
+    margin-top: 12px;
+}
+.change{
+    background-color: black;
+    color: red;
+}
+.tracking #cainput_services, .tracking #cainput_delivery {
+    background: #fff;
+    border: 1px solid #ffffff;
+    color: #616161;
+}
+.tracking #cainput_submit {
+
+    background: #212121 !important;
+    color: #fff;
+    padding: 8px 24px 8px 24px;
+    max-width: 50% !important;
+    border: 1px solid #212121;
+
+}
 @media (max-width: 768px) {
 #et-braket-block-1 .braket-title {
     font-size: 15px;
