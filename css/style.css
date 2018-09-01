@@ -1,5 +1,5 @@
 body {
-    font-family: 'Montserrat', sans-serif !important;
+    font-family: Montserrat !important;
 }
 #services {
     background-image: url("img/world.jpg") ;
@@ -184,7 +184,7 @@ img {
 #mainNav {
     border-color: #fff;
     background-color: #fff;
-    height: 95px;
+    width: 100%;
 }
 #mainNav .navbar-nav > li.nav-item > a.nav-link, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
     color: #212529;
@@ -279,7 +279,7 @@ img {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     text-transform: uppercase;
-    color: #fff;
+    color: #000;
     font-size: 35px;
     text-align: center;
 }
@@ -294,6 +294,33 @@ img {
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
+}
+#tracking{
+    padding-top: 72px !important;
+    padding-bottom: 72px !important;
+    background: #fd8c40 url(../img/globus_image_small.jpg) !important;
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-size: auto auto;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+/*#one:hover {
+    background-image: url(../img/18.png);
+}*/
+#two:hover {
+    background-image: url(../img/b2.png);
+}
+#three:hover {
+    background-image: url(../img/b2.png);
+}
+#four:hover {
+    background-image: url(../img/b2.png);
+}
+#five:hover {
+    background-image: url(../img/b2.png);
 }
 .contact-ajax.theme1 .ctajax-wrap .ctajax-element .el-ctajax-form input {
     width: 100%;
@@ -380,6 +407,106 @@ img {
     border: 1px solid #212121;
 
 }
+#mainNav .navbar-nav > li.nav-item > a.nav-link, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #424242 !important;
+    letter-spacing: 1px;
+    font-family: Montserrat;
+
+}
+.header-social-links {
+    float: right;
+}
+.header-social-links a {
+    height: 32px;
+    width: 36px;
+    line-height: 32px;
+    font-size: 16px !important;
+    vertical-align: top;
+    text-align: center;
+    display: inline-block;
+    backface-visibility: hidden;
+    transition: all 300ms ease-out;
+}
+.header-top .header-social-links {
+    margin-top: 12px;
+}
+.header-social-links a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+.header-social-links a {
+    color: #bdbdbd;
+}
+.service-box.mt-5.mx-auto {
+    transition: transform 1.5s cubic-bezier(.23,1,.32,1) .3s;
+
+transform: translateZ(0);
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+.masthead.text-center.text-white.d-flex.content {
+    width: 100%;
+}
+.product-tracking-form {
+    padding: 30px 0 30px 40px;
+    -o-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: -1px 1px 20px rgba(0, 0, 0, 0.12);
+    box-shadow: -1px 1px 20px rgba(0, 0, 0, 0.12);
+    position: relative;
+    margin: 100px 35px -200px 22px;
+}
+.product-tracking-form .button {
+    background: #fd8c40 !important;
+    color: #fff !important;
+    font-weight: 900;
+    max-width: 80% !important;
+    -o-border-radius: 2px !important;
+    -webkit-border-radius: 2px !important;
+    border-radius: 2px !important;
+    -webkit-box-shadow: -1px 1px 20px rgba(0, 0, 0, 0.12);
+    box-shadow: -1px 1px 20px rgba(0, 0, 0, 0.12);
+    border: none;
+    height: 54px !important;
+}
+.padding-zero {
+    padding: 0;
+}
+.product-tracking-form input {
+    line-height: normal;
+border: 1px solid #ededed;
+padding: 10px;
+height: 54px !important;
+color: #000 !important;
+}
+.product-tracking-form {
+    background: #fff;
+}
+.product-tracking-form input {
+    width: 98%;
+    height: 54px;
+    -o-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: -1px 1px 20px rgba(0, 0, 0, 0.12);
+    box-shadow: -1px 1px 20px rgba(0, 0, 0, 0.12);
+}
+.vest1 {
+    text-align: center;
+}
+.s1_img1 {
+    width: 100px;
+}
 @media (max-width: 768px) {
 #et-braket-block-1 .braket-title {
     font-size: 15px;
@@ -414,5 +541,11 @@ img {
 }
 .et-clearfix.braket-block-content-inner {
     margin: -50px 15px;
+}
+.header-top {
+    background-color: rgba(33,33,33,1);
+    height: 56px;
+    line-height: 56px;
+    display: none;
 }
 }

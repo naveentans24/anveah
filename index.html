@@ -12,6 +12,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/aos.css" />
 
     <!-- Custom fonts for this template -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -25,11 +26,13 @@
     <!-- Custom styles for this template -->
     <link href="css/creative.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+      <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
   </head>
 
   <body id="page-top">
     <!-- Navigation -->
+    <div class="top-container">
     <div class="header-top top-true sticky-true">
     <div class="container et-clearfix">
         <div class="slogan et-clearfix">
@@ -37,11 +40,17 @@
           <div class="et-el-icon extra-small " style="color:#fd8c40"><span class="el-icon fa fa-phone animate-false"></span></div><span class="et-gap-inline et-clearfix" style="width:4px"></span><span style="color:#ffffff;font-size:16px;line-height:24px">Tel: +123 456 7890</span><span class="et-gap-inline et-clearfix" style="width:32px">&nbsp;</span>
           <div class="et-el-icon extra-small " style="color:#fd8c40"><span class="el-icon fa fa-envelope-open animate-false"></span></div><span class="et-gap-inline et-clearfix" style="width:4px"></span><span style="color:#ffffff;font-size:16px;line-height:24px">Email: info@anveah.com</span>       
         </div>
-                    <a class="top-button" href="#quote">Get a quote</a>
-                    <div class="header-social-links et-clearfix">
-          <a class="et-icon-facebook" href="http://enovathemes.com" title="facebook" target="_blank"></a><a class="et-icon-twitter" href="http://enovathemes.com" title="twitter" target="_blank"></a><a class="et-icon-youtube" href="http://enovathemes.com" title="youtube" target="_blank"></a><a class="et-icon-email" href="mailto:support@enovathemes.com" title="email" target="_blank"></a></div>
+            <a class="top-button" href="#quote">Get a quote</a>
+        <div class="header-social-links et-clearfix">
+          <a class="fa fa-facebook" href="#" title="facebook" target="_blank"></a>
+          <a class="fa fa-twitter" href="#" title="twitter" target="_blank"></a>
+          <a class="fa fa-youtube" href="#" title="youtube" target="_blank"></a>
+          <a class="fa fa-envelope" href="mailto:support@anveah.com" title="email" target="_blank"></a>
+        </div>
           </div>
   </div>
+</div>
+  <div id="myHeader" class="header">
     <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top"><img class="img-fluid" src="img/logo.jpg" alt="" style="max-width:170px;max-height:37px;"></a>
@@ -57,6 +66,9 @@
               <a class="nav-link js-scroll-trigger" href="#services">Services</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#whatwehave">What We Have</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#features">Features</a>
             </li>
             <li class="nav-item">
@@ -66,39 +78,117 @@
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="">Login</a>
+              <a class="nav-link js-scroll-trigger" href="#login-register">Login</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="">Register</a>
+              <a class="nav-link js-scroll-trigger" href="#login-register">Register</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+  </div>
 </header>
 
-    <header class="masthead text-center text-white d-flex">
+    <header class="masthead text-center text-white d-flex content">
       <div class="container my-auto">
         <div class="row">
-          <div class="col-lg-10 mx-auto">
+          <div class="col-lg-10 mx-auto" data-aos="fade-down">
             <h1 class="text-uppercase">
               <strong>We make it easy</strong>
             </h1>
             <hr>
           </div>
-          <div class="col-lg-8 mx-auto">
+          <div class="col-lg-8 mx-auto" data-aos="zoom-in-up" data-aos-easing="linear" data-aos-duration="1500">
             <p class="text-faded mb-5">We transport anything within Bangalore using Light commercial vehicles. You can rent a Tata Ace or Super Ace at the click of a button.Sign up today to find out how TruckEasy can make your life easy when it comes to transporting goods within the city.</p>
             <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+          </div>
+               <div class="col-lg-10 mx-auto product-tracking-form"><div class="contact-ajax theme1" id="contact_ajax1535617047701507373">
+      <div class="pre-text"><h2 style="margin-bottom: 50px;">Enter you email and tracking #</h2></div>
+      <div class="clr"></div>
+      <div class="ctajax-wrap">
+        <div class="ctajax-element">
+        <div class="el-inner cf">
+          <div class="el-form cf">
+        <form class="el-ctajax-form" id="el_ctajax_form" method="post" action="#">
+          <div class="el-control">
+            <div class="sppb-row">
+              <div class="el-control el-controlname col-sm-4"> 
+                <label for="cainput_services">Email*</label> 
+                <input autocomplete="off" name="cainput_services" class="el-input" id="cainput_services" placeholder="Email*" type="email" required></div>
+              <div class="el-control col-sm-4">
+                <label for="cainput_delivery">Tracking No*</label> 
+                <input autocomplete="off" name="cainput_delivery" class="el-input" id="cainput_delivery" placeholder="Tracking No*" type="text" required></div>
+              <div class="el-control col-sm-4 "> 
+                <div class="el-control"> 
+                    <input class="button" value="Track your cargo" id="cainput_submit" type="submit"> 
+                </div>
+              </div>
+              </div>
+            </div>
+
+                </form>
+              </div>
+            </div>
+          </div>
+          </div>
+          </div>
           </div>
         </div>
       </div>
     </header>
 
-    <section class="bg-primary" id="about">
+     <!-- <div class="container">
+<div class="col-md-10 col-md-offset-1 product-tracking-form">
+<form action="http://event-theme.com/themes/gocourierwp/order-tracking/" method="post" class="track_order">
+
+  <h4>Track your product<span>Now you can track your product easily</span></h4>
+
+  <div class="col-md-4 padding-zero"> <input class="input-text" name="orderid" id="orderid" value="" placeholder="Order id" type="text"></div>
+  <div class="col-md-4 padding-zero"> <input class="input-text" name="order_email" id="order_email" value="" placeholder="Email" type="text"></div>
+  <div class="col-md-4 padding-zero"><input class="button" name="track" value="Track Your Product" type="submit"></div>
+  <input id="_wpnonce" name="_wpnonce" value="2644abfffa" type="hidden"><input name="_wp_http_referer" value="/themes/gocourierwp/" type="hidden">
+</form>
+</div>
+</div> -->
+
+   <!--  <div class="container"><div class="contact-ajax theme1" id="contact_ajax1535617047701507373">
+      <div class="pre-text"><h2 style="margin-bottom: 50px;">Enter you email and tracking #</h2></div>
+      <div class="clr"></div>
+      <div class="ctajax-wrap">
+        <div class="ctajax-element">
+        <div class="el-inner cf">
+          <div class="el-form cf">
+        <form class="el-ctajax-form" id="el_ctajax_form" method="post" action="#">
+          <div class="el-control">
+            <div class="sppb-row">
+              <div class="el-control el-controlname col-sm-4"> 
+                <label for="cainput_services">Email*</label> 
+                <input autocomplete="off" name="cainput_services" class="el-input" id="cainput_services" placeholder="Email*" type="email" required></div>
+              <div class="el-control col-sm-4">
+                <label for="cainput_delivery">Tracking No*</label> 
+                <input autocomplete="off" name="cainput_delivery" class="el-input" id="cainput_delivery" placeholder="Tracking No*" type="text" required></div>
+              <div class="el-control col-sm-4 "> 
+                <div class="el-control"> 
+                    <input value="Track your cargo" id="cainput_submit" type="submit"> 
+                </div>
+              </div>
+              </div>
+            </div>
+
+                </form>
+              </div>
+            </div>
+          </div>
+          </div>
+          </div>
+          </div> -->
+
+    <section class="bg-primary" id="about" style="padding: 10rem 0 2rem 0px;">
     <div class="container">
     <div class="row">
     
-    <div class="col-sm-6">
+    <div class="col-sm-6" data-aos="fade-left">
     <div class="col-sm-12">
     <div class="container">
     <div class="col-lg-2 col-sm-2" style="float: left;">    
@@ -135,7 +225,7 @@
     </div>
 
 
-  <div class="col-sm-6" style="float: right;">
+  <div class="col-sm-6" style="float: right;animation-delay: 148ms !important;" data-aos="fade-right">
             <!-- <h2 class="section-heading text-white">We've got what you need!</h2>
             <hr class="light my-4">
             <p class="text-faded mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
@@ -166,21 +256,21 @@
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-lg-4 col-md-8 text-center">
+          <div class="col-lg-4 col-md-8 text-center" data-aos="zoom-in">
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-diamond text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Transport of Packaged goods</h3>
+              <h3 class="mb-3">Transport of Packaged Goods</h3>
               <p class="text-muted mb-0">Our templates are updated regularly so they don't break.</p>
             </div>
           </div>
-          <div class="col-lg-4 col-md-8 text-center">
+          <div class="col-lg-4 col-md-8 text-center" data-aos="zoom-in">
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-paper-plane text-primary mb-3 sr-icons"></i>
               <h3 class="mb-3">Packaging</h3>
               <p class="text-muted mb-0">You can use this theme as is, or you can make changes!</p>
             </div>
           </div>
-          <div class="col-lg-4 col-md-8 text-center">
+          <div class="col-lg-4 col-md-8 text-center" data-aos="zoom-in">
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-newspaper-o text-primary mb-3 sr-icons"></i>
               <h3 class="mb-3">Forwarding Services</h3>
@@ -192,21 +282,21 @@
 
       <div class="container">
         <div class="row">
-          <div class="col-lg-4 col-md-8 text-center">
+          <div class="col-lg-4 col-md-8 text-center" data-aos="zoom-in">
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-diamond text-primary mb-3 sr-icons"></i>
               <h3 class="mb-3">Over Land Services</h3>
               <p class="text-muted mb-0">Our templates are updated regularly so they don't break.</p>
             </div>
           </div>
-          <div class="col-lg-4 col-md-8 text-center">
+          <div class="col-lg-4 col-md-8 text-center" data-aos="zoom-in">
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-paper-plane text-primary mb-3 sr-icons"></i>
               <h3 class="mb-3">Door to Door Delivery</h3>
               <p class="text-muted mb-0">You can use this theme as is, or you can make changes!</p>
             </div>
           </div>
-          <div class="col-lg-4 col-md-8 text-center">
+          <div class="col-lg-4 col-md-8 text-center" data-aos="zoom-in">
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-newspaper-o text-primary mb-3 sr-icons"></i>
               <h3 class="mb-3">Custom Solutions</h3>
@@ -217,12 +307,88 @@
       </div>
     </section>
 
+         <section id="login-register" style="padding: 0;">
+
+            <div class="row" style="margin-right: 0px; margin-left: 0px;">
+         <div data-animation-delay="0" data-parallax-speed="1.5" class="wpb_column vc_column_container vc_col-sm-12 col-lg-6 vc_col-md-6 vc_col-xs-12 col-sm-6">
+      <div class="vc_column-inner "><div class="wpb_wrapper"><div class="et-stylish-box stylish-hover top"><div class="image post-image"><div class="image-container"><img src="img/sender.jpg" alt="" width="960" height="480" class="animated zoomIn"></div></div><div class="stylish-line-box"><div class="stylish-line-wrapper"><div class="stylish-line" data-aos="zoom-in"><span class="stylish-line-ghost"><span class="stylish-line-ghost-before"></span><span class="stylish-line-ghost-middle"></span><span class="stylish-line-ghost-after"></span></span><p class="stylish-subtitle">WE HAVE THE SOLUTION</p><h3 class="stylish-title" style="font-size:32px;line-height:40px;" data-mobile-font="18px" data-tablet-font="inherit">ARE YOU A SENDER?</h3></div></div></div></a></div></div></div></div>
+
+         <div data-animation-delay="0" data-parallax-speed="1.5" class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-6 vc_col-md-6 vc_col-xs-12 col-sm-6"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="et-stylish-box stylish-hover bottom"><div class="image post-image"><div class="image-container"><img src="img/shipper.jpg" alt="" width="960" height="480"></div></div><div class="stylish-line-box"><div class="stylish-line-wrapper"><div class="stylish-line" data-aos="zoom-in"><span class="stylish-line-ghost"><span class="stylish-line-ghost-before"></span><span class="stylish-line-ghost-middle"></span><span class="stylish-line-ghost-after"></span></span><p class="stylish-subtitle">WE HAVE THE SOLUTION</p><h3 class="stylish-title" style="font-size:32px;line-height:40px;" data-mobile-font="18px" data-tablet-font="inherit">ARE YOU A SHIPPER?</h3></div></div></div></a></div></div></div></div></div>
+    </div>
+
+    </section>
+
+
+          <section id="whatwehave">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">What We Have</h2>
+            <hr class="my-4">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-1 col-md-8 text-center"></div>
+          <div class="col-lg-2 col-md-8 text-center">
+            <img src="img/18.png" id="one" alt="EasyWay Truck">
+            <p class="open_t">Open Truck</p>
+          </div>
+          <div class="col-lg-2 col-md-8 text-center">
+            <img src="img/19.png" id="two" alt="EasyWay Truck">
+            <p class="open_t">Full Truck Load</p>
+          </div>
+          <div class="col-lg-2 col-md-8 text-center">
+            <img src="img/19.png" id="three" alt="EasyWay Truck">
+            <p class="open_t">Trailer Double Axie</p>
+          </div>
+          <div class="col-lg-2 col-md-8 text-center">
+           <img src="img/19.png" id="four" alt="EasyWay Truck">
+            <p class="open_t">Trailer Triple Axie</p>
+          </div>
+          <div class="col-lg-2 col-md-8 text-center">
+            <img src="img/19.png" id="five" alt="EasyWay Truck">
+            <p class="open_t">Tarus</p>
+          </div>
+          <div class="col-lg-1 col-md-8 text-center"></div>
+        </div>
+      </div>
+
+   <div class="container">
+      <div class="custid col-md-12 row">
+                   
+               <div class="col-md-3 col-xs-6 col-sm-6 vest1">
+               <img src="img/V1.png" class="s1_img1" alt="EasyWay Truck"> 
+               <p class="ver"><b>1000 + </b>Trucks</p>
+               </div>
+                   
+               <div class="col-md-3 col-xs-6 col-sm-6 vest1">
+               <img src="img/V2.png" class="s1_img1" alt="EasyWay Truck">   
+               <p class="ver"><b>10,000 + </b>Customers</p>
+               </div>
+             
+               <div class="col-md-3 col-xs-6 col-sm-6 vest1">
+               <img src="img/V3.png" class="s1_img1" alt="EasyWay Truck">  
+               <p class="ver"><b>500 + </b>Routers</p>
+               </div>
+                   
+               <div class="col-md-3 col-xs-6 col-sm-6 vest1">
+               <img src="img/V4.png" class="s1_img1" alt="EasyWay Truck"> 
+               <p class="ver"><b>10,00,000 Lakh+ </b>km</p>
+               </div>
+                
+               </div>
+             </div>
+    </section>
+
 
     <section class="p-0" id="features">
 
     <div class="vc_row wpb_row vc_row-fluid vc_custom_1530688144672 vc_row-has-fill vc_row-o-equal-height vc_row-o-content-middle vc_row-flex"><div class="vc-container et-clearfix"><div data-animation-delay="0" data-parallax-speed="1.5" class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-6 vc_col-md-6 vc_col-xs-12"><div class="vc_column-inner vc_custom_1530688354424"><div class="wpb_wrapper"><div class="et-braket-block-wrapper"><style>#et-braket-block-1 .braket-title {color:#ffffff;}#et-braket-block-1 .braket-sub-title {color:#ffffff;}#et-braket-block-1 .braket-button {color:#ffffff !important;}#et-braket-block-1 .braket-button:hover {color:#ffffff !important;}#et-braket-block-1 .braket-button:before {box-shadow:inset 0 0 0 1px #ffffff;}#et-braket-block-1 .braket-button:after {background-color:#fd8c40;}#et-braket-block-1 .braket > div:first-child,
             #et-braket-block-1 .braket > div:last-child,
-            #et-braket-block-1 .braket > div:nth-child(2) > span  {background-color:#fd8c40;}</style><div id="et-braket-block-1" data-delay="100" class="et-braket-block left  active"><div class="braket-block-inner et-clearfix"><div class="braket"><div></div><div><span></span></div><div></div></div><div class="braket-block-content"><p class="braket-sub-title">FAST &amp; RELIABLE</p><h3 class="braket-title" data-mobile-font="32px" data-tablet-font="inherit">TRANSPORT INQUIRY</h3></div></div><div class="braket-block-content text et-clearfix"><div class="et-clearfix braket-block-content-inner"><p><span style="color: #ffffff;">Send us your transport inquiry – we are pleased to send you an offer without obligation. Our solutions are tailored on your individual requirements.</span></p></div></div></div></div></div></div></div><div data-animation-delay="0" data-parallax-speed="1.5" class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-6 vc_col-md-6 vc_hidden-sm vc_hidden-xs"><div class="vc_column-inner vc_custom_1530688372423"><div class="wpb_wrapper"></div></div></div></div></div>
+            #et-braket-block-1 .braket > div:nth-child(2) > span  {background-color:#fd8c40;}</style><div id="et-braket-block-1" data-aos="fade-right"
+     data-aos-offset="300" data-aos-easing="ease-in-sine" data-delay="100" class="et-braket-block left  active"><div class="braket-block-inner et-clearfix"><div class="braket"><div></div><div><span></span></div><div></div></div><div class="braket-block-content"><p class="braket-sub-title">FAST &amp; RELIABLE</p><h3 class="braket-title" data-mobile-font="32px" data-tablet-font="inherit">TRANSPORT INQUIRY</h3></div></div><div class="braket-block-content text et-clearfix"><div class="et-clearfix braket-block-content-inner"><p><span style="color: #ffffff;">Send us your transport inquiry – we are pleased to send you an offer without obligation. Our solutions are tailored on your individual requirements.</span></p></div></div></div></div></div></div></div><div data-animation-delay="0" data-parallax-speed="1.5" class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-6 vc_col-md-6 vc_hidden-sm vc_hidden-xs"><div class="vc_column-inner vc_custom_1530688372423"><div class="wpb_wrapper"></div></div></div></div></div>
 
      </section>
 
@@ -237,21 +403,21 @@
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-lg-4 col-md-8 text-center">
+          <div class="col-lg-4 col-md-8 text-center" data-aos="zoom-in">
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-diamond text-primary mb-3 sr-icons"></i>
               <h3 class="mb-3">Trustable</h3>
               <p class="text-muted mb-0">Our templates are updated regularly so they don't break.</p>
             </div>
           </div>
-          <div class="col-lg-4 col-md-8 text-center">
+          <div class="col-lg-4 col-md-8 text-center" data-aos="zoom-in">
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-paper-plane text-primary mb-3 sr-icons"></i>
               <h3 class="mb-3">Support 24 x 7</h3>
               <p class="text-muted mb-0">You can use this theme as is, or you can make changes!</p>
             </div>
           </div>
-          <div class="col-lg-4 col-md-8 text-center">
+          <div class="col-lg-4 col-md-8 text-center" data-aos="zoom-in">
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-newspaper-o text-primary mb-3 sr-icons"></i>
               <h3 class="mb-3">Rewards</h3>
@@ -263,21 +429,21 @@
 
       <div class="container">
         <div class="row">
-          <div class="col-lg-4 col-md-8 text-center">
+          <div class="col-lg-4 col-md-8 text-center" data-aos="zoom-in">
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-diamond text-primary mb-3 sr-icons"></i>
               <h3 class="mb-3">Satisfied Cost</h3>
               <p class="text-muted mb-0">Our templates are updated regularly so they don't break.</p>
             </div>
           </div>
-          <div class="col-lg-4 col-md-8 text-center">
+          <div class="col-lg-4 col-md-8 text-center" data-aos="zoom-in">
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-paper-plane text-primary mb-3 sr-icons"></i>
               <h3 class="mb-3">User Friendly</h3>
               <p class="text-muted mb-0">You can use this theme as is, or you can make changes!</p>
             </div>
           </div>
-          <div class="col-lg-4 col-md-8 text-center">
+          <div class="col-lg-4 col-md-8 text-center" data-aos="zoom-in">
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-newspaper-o text-primary mb-3 sr-icons"></i>
               <h3 class="mb-3">Discounts</h3>
@@ -288,52 +454,6 @@
       </div>
     </section>
 
-        <section id="quote" class="tracking"><div class="container"><div class="container-inner"><div class="row"><div id="sp-position7" class="col-lg-12 "><div class="sp-column "><div class="sp-module yt-request-quote"><div class="sp-module-content"> <!--[if lt IE 9]>
-  <div class="contact-ajax msie lt-ie9" id="contact_ajax1535617047701507373"><![endif]--> <!--[if IE 9]>
-  <div class="contact-ajax msie" id="contact_ajax1535617047701507373"><![endif]--> <!--[if gt IE 9]><!-->
-    <div class="container"><div class="contact-ajax theme1" id="contact_ajax1535617047701507373"><!--<![endif]-->
-      <div class="pre-text"><h2 style="margin-bottom: 50px;">Enter you email and tracking #</h2></div>
-      <div class="clr"></div>
-      <div class="ctajax-wrap">
-        <div class="ctajax-element">
-        <div class="el-inner cf">
-          <div class="el-form cf">
-        <form class="el-ctajax-form" id="el_ctajax_form" method="post" action="#">
-          <div class="el-control">
-            <div class="sppb-row">
-              <div class="el-control el-controlname col-sm-4"> 
-                <label for="cainput_services">Email*</label> 
-                <input autocomplete="off" name="cainput_services" class="el-input" id="cainput_services" placeholder="Email*" type="email" required></div>
-              <div class="el-control col-sm-4">
-                <label for="cainput_delivery">Tracking No*</label> 
-                <input autocomplete="off" name="cainput_delivery" class="el-input" id="cainput_delivery" placeholder="Tracking No*" type="text" required></div>
-              <div class="el-control col-sm-4 "> 
-                <div class="el-control"> 
-                    <input value="Track your cargo" id="cainput_submit" type="submit"> 
-                </div>
-              </div>
-              </div>
-            </div>
-
-                </form>
-              </div>
-            </div>
-          </div>
-          </div>
-          </div>
-          </div>
-          </section>
-
-     <section style="padding: 0;">
-
-            <div class="row" style="margin-right: 0px; margin-left: 0px;">
-         <div data-animation-delay="0" data-parallax-speed="1.5" class="wpb_column vc_column_container vc_col-sm-12 col-lg-6 vc_col-md-6 vc_col-xs-12 col-sm-6">
-      <div class="vc_column-inner "><div class="wpb_wrapper"><div class="et-stylish-box stylish-hover top"><div class="image post-image"><div class="image-container"><img src="img/sender.jpg" alt="" width="960" height="480"></div></div><div class="stylish-line-box"><div class="stylish-line-wrapper"><div class="stylish-line"><span class="stylish-line-ghost"><span class="stylish-line-ghost-before"></span><span class="stylish-line-ghost-middle"></span><span class="stylish-line-ghost-after"></span></span><p class="stylish-subtitle">WE HAVE THE SOLUTION</p><h3 class="stylish-title" style="font-size:32px;line-height:40px;" data-mobile-font="18px" data-tablet-font="inherit">ARE YOU A SENDER?</h3></div></div></div></a></div></div></div></div>
-
-         <div data-animation-delay="0" data-parallax-speed="1.5" class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-6 vc_col-md-6 vc_col-xs-12 col-sm-6"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="et-stylish-box stylish-hover bottom"><div class="image post-image"><div class="image-container"><img src="img/shipper.jpg" alt="" width="960" height="480"></div></div><div class="stylish-line-box"><div class="stylish-line-wrapper"><div class="stylish-line"><span class="stylish-line-ghost"><span class="stylish-line-ghost-before"></span><span class="stylish-line-ghost-middle"></span><span class="stylish-line-ghost-after"></span></span><p class="stylish-subtitle">WE HAVE THE SOLUTION</p><h3 class="stylish-title" style="font-size:32px;line-height:40px;" data-mobile-font="18px" data-tablet-font="inherit">ARE YOU A SHIPPER?</h3></div></div></div></a></div></div></div></div></div>
-    </div>
-
-    </section>
 
     
 <!-- <section class="bg-white text-white" style="padding: 0;">
@@ -375,7 +495,7 @@
   <div class="contact-ajax msie lt-ie9" id="contact_ajax1535617047701507373"><![endif]--> <!--[if IE 9]>
   <div class="contact-ajax msie" id="contact_ajax1535617047701507373"><![endif]--> <!--[if gt IE 9]><!-->
     <div class="container"><div class="contact-ajax theme1" id="contact_ajax1535617047701507373"><!--<![endif]-->
-      <div class="pre-text"><h2>Request a quote</h2></div>
+      <div class="pre-text" data-aos="zoom-in"><h2>Request a quote</h2></div>
       <div class="clr"></div>
       <div class="post-text">It’s important to use cocoa butter. It’s the key to more success, why not live smooth?</div>
       <div class="ctajax-wrap">
@@ -593,6 +713,25 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/creative.min.js"></script>
+    <script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+
+<script src="js/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
   </body>
 
