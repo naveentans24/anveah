@@ -97,7 +97,7 @@ body {
 .box-item-content, textarea, .widget_price_filter .price_label {
     font-size: 16px;
     font-weight: 400;
-    font-family: Roboto;
+    font-family: Montserrat !important;
     line-height: 28px;
     letter-spacing: 0.5px;
     color: #616161;
@@ -271,12 +271,12 @@ img {
 .contact-ajax.theme1 .post-text {
     font-style: italic;
     color: #fff;
-    font-family: 'Roboto Slab', serif;
+    font-family: Montserrat !important;
     text-align: center;
     margin: 0 0 60px;
 }
 .contact-ajax.theme1 .pre-text {
-    font-family: 'Montserrat', sans-serif;
+    font-family: Montserrat !important;
     font-weight: bold;
     text-transform: uppercase;
     color: #000;
@@ -506,6 +506,9 @@ color: #000 !important;
 }
 .s1_img1 {
     width: 100px;
+}
+.h3, h3 {
+    font-size: 1.6rem;
 }
 @media (max-width: 768px) {
 #et-braket-block-1 .braket-title {
