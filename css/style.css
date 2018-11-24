@@ -20,7 +20,7 @@ body {
     background-size: cover !important;
 }
 #et-braket-block-1 .braket > div:first-child, #et-braket-block-1 .braket > div:last-child, #et-braket-block-1 .braket > div:nth-child(2) > span {
-    background-color: #960001;
+    background-color: #E00000;
 }
 .et-braket-block .braket {
     position: absolute;
@@ -55,7 +55,7 @@ body {
     position: relative;
 }
 #et-braket-block-1 .braket > div:first-child, #et-braket-block-1 .braket > div:last-child, #et-braket-block-1 .braket > div:nth-child(2) > span {
-    background-color: #960001;
+    background-color: #E00000;
 }
 .et-braket-block .braket > div:nth-child(2) {
     position: absolute;
@@ -190,10 +190,10 @@ img {
     color: #212529;
 }
 #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover, #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover {
-    color: #960001;
+    color: #E00000;
 }
 #mainNav a.nav-link:hover {
-	color: #960001!important;
+	color: #E00000!important;
 }
 #footer ul > li {
     display: inline-block;
@@ -286,7 +286,7 @@ img {
 #quote{
     padding-top: 72px !important;
     padding-bottom: 72px !important;
-    background: #960001 url(../img/globus_image_small-1.jpg) !important;
+    background: #E00000 url(../img/globus_image_small-2.jpg) !important;
         background-position-x: 0%;
         background-position-y: 0%;
         background-repeat: repeat;
@@ -298,7 +298,7 @@ img {
 #tracking{
     padding-top: 72px !important;
     padding-bottom: 72px !important;
-    background: #960001 url(../img/globus_image_small-3.jpg) !important;
+    background: #E00000 url(../img/globus_image_small-3.jpg) !important;
         background-position-x: 0%;
         background-position-y: 0%;
         background-repeat: repeat;
@@ -383,7 +383,7 @@ img {
     text-transform: uppercase;
 }
 .header-top .top-button {
-    background-color: #960001;
+    background-color: #E00000;
     color: #ffffff;
 }
 .header-top .top-button{
@@ -467,7 +467,7 @@ transform: translateZ(0);
     margin: 100px 35px -200px 22px;
 }
 .product-tracking-form .button {
-    background: #960001 !important;
+    background: #E00000 !important;
     color: #fff !important;
     font-weight: 900;
     max-width: 80% !important;
